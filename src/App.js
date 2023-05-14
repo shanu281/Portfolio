@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from './Components/Header';
-// import components
+import Hero from './Components/Hero';
 
 const App = () => {
   return <div>
     <Header />
+    <Hero />
     <div style={{height: '2000px'}}>
 
     </div>

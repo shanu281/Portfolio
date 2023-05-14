@@ -6,26 +6,12 @@ const Nav = () => {
   return (
     <nav>
         <ul className='flex space-x-8 capitalize text-[15px]'>
-            {
-                navigation.map((item, i) => {
-                    return (
-                        <li key={i} className='text-white hover:text-accent cursor-pointer '>
-                            {/* <Link 
-                            to={item.href}
-                            activeClass='active'
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            offset={-70}
-                            className='transition-all'
-                            duration-300
-                             > */}
-                                hello
-                            {/* </Link> */}
-                        </li>
-                    )
-                })
-            }
+           <li className='text-white hover:text-accent cursor-pointer '>Home</li>
+           <li className='text-white hover:text-accent cursor-pointer '>About</li>
+           <li className='text-white hover:text-accent cursor-pointer '>Portfolio</li>
+           <li className='text-white hover:text-accent cursor-pointer '>Services</li>
+           <li className='text-white hover:text-accent cursor-pointer '>Contact</li>
+            
         </ul>
     </nav>
   )
