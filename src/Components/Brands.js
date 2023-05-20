@@ -1,5 +1,5 @@
 import React from "react";
-import { brands } from "../../data";
+import { brands } from "../data";
 const Brands = () => {
   return (
     <section className="min-h-[146px] bg-tertiary flex items-center">

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {navigation} from '../../data'
+import {navigation} from '../data'
 
 const Nav = () => {
   return (

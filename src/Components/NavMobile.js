@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Socials from "../Socials";
+import Socials from "./Socials";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { HiMenuAlt3 } from "react-icons/hi";

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import Nav from '../Nav'
-import NavMobile from '../NavMobile.js'
-import Logo from '../../assets/img/logo.svg'
-import Socials from '../Socials'
+import Nav from './Nav'
+import NavMobile from './NavMobile.js'
+// import Logo from '../../assets/img/logo.svg'
+import Socials from './Socials'
 
 const Header = () => {
     const [bg, setBg] = useState(false)
