@@ -5,6 +5,7 @@ import Brands from './Components/Brands';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Portfolio from './Components/Portfolio';
+import Contact from './Components/Contact';
 
 const App = () => {
   return <div>
@@ -14,6 +15,7 @@ const App = () => {
     <About />
     <Skills />
     <Portfolio />
+    <Contact />
     <div style={{height: '2000px'}}>
 
     </div>
