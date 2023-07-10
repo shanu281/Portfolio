@@ -5,6 +5,8 @@ import Brands from './Components/Brands';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Portfolio from './Components/Portfolio';
+import Services from './Components/Services';
+import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import BackToTopBtn from './Components/BackToTopBtn';
@@ -17,9 +19,12 @@ const App = () => {
     <About />
     <Skills />
     <Portfolio />
+    <Services />
+    <Testimonials />
     <Contact />
     <Footer />
    <BackToTopBtn />
+
     
   </div>;
 };

@@ -3,7 +3,7 @@ import Image from '../assets/img/about.webp'
 const About = () => {
   return (
     <section className='section bg-secondary'>
-<div className='conatiner mx-auto '>
+<div className='container mx-auto '>
     <div className='flex flex-col xl:flex-row gap-24'>
         <img className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl' src={Image} alt='image'/>
 <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>

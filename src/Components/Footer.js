@@ -17,8 +17,8 @@ const Footer = () => {
             })}
           </div>
           {/* Logo  */}
-          <div>
-            <img src={logo} alt="" />
+          <div className='h-20 w-1/4'>
+            <img src="sign3.png" alt="" />
           </div>
           {/* Copyright  */}
           <p>&copy; 2023. All rights reserved.</p>
