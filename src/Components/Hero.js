@@ -12,7 +12,8 @@ const Hero = () => {
           <div className="flex-1 flex flex-col items-center lg:items-start">
             <p className="text-lg text-accent mb-[22px]">Hey, I am Shanu</p>
           <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">I Build & Design <br/> Web Interfaces</h1>
-         <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">sdhjak sjdhas de ddu  why ru cdocm cncsid c cdu cdso dc uhcdcndu</p>
+         <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">A profession that completely matches your talent, aspirations and
+skills is the best profession you can choose.</p>
          <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">Work with me</button>
           </div>
           {/* Right Side  */}
