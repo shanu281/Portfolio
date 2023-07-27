@@ -1,5 +1,5 @@
 import React from "react";
-import WomanImg from "../assets/img/banner-woman2.webp";
+import hero from "../assets/img/hero.jpg";
 const Hero = () => {
   return (
     <section
@@ -11,14 +11,14 @@ const Hero = () => {
           {/* Left Side  */}
           <div className="flex-1 flex flex-col items-center lg:items-start">
             <p className="text-lg text-accent mb-[22px]">Hey, I am Shanu</p>
-          <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">I Build & Design <br/> Web Interfaces</h1>
-         <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">A profession that completely matches your talent, aspirations and
-skills is the best profession you can choose.</p>
-         <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">Work with me</button>
+            <h1 className="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">I Build & Design <br /> Web Interfaces</h1>
+            <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">A profession that completely matches your talent, aspirations and
+              skills is the best profession you can choose.</p>
+            <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">Work with me</button>
           </div>
           {/* Right Side  */}
-          <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img src={WomanImg} alt="image" />
+          <div className="hidden lg:flex flex-1 ">
+            <img src={hero} alt="image" />
           </div>
         </div>
       </div>
