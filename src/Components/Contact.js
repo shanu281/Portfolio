@@ -25,7 +25,7 @@ const Contact = () => {
           console.log(error.text);
       });
   };
-s
+
     return (
         <section className="section bg-primary" id="contact">
       <div className="container mx-auto">
@@ -35,12 +35,7 @@ s
             Contact me
           </h2>
           <p className="subtitle">
-            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco
-            <br /> laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur
+          "Thank you for your interest! Whether you have a project idea, a job opportunity, or simply want to connect, I would be delighted to hear from you. Please feel free to reach out to me using the contact details provided below. I am open to collaborating on exciting software development projects or discussing potential employment opportunities.
           </p>
         </div>
 

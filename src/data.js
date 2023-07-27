@@ -1,16 +1,5 @@
 //  icons
-import {
-  FiYoutube,
-  FiInstagram,
-  FiGithub,
-  FiDribbble,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
-  FiMail,
-  FiMapPin,
-} from 'react-icons/fi';
+import {FiYoutube,FiLinkedin,FiInstagram,FiGithub,FiDribbble,FiLayout,FiSettings,FiPenTool,FiTag,FiMail,FiMapPin,} from 'react-icons/fi';
 
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
@@ -20,12 +9,12 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/p1.png';
+import Project2 from './assets/img/projects/p2.png';
+import Project3 from './assets/img/projects/p3.png';
+import Project4 from './assets/img/projects/p4.png';
+import Project5 from './assets/img/projects/p5.png';
+import Project6 from './assets/img/projects/p6.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -35,8 +24,8 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/bootstrap.png';
 import SkillImg7 from './assets/img/skills/git.png';
-// import SkillImg8 from './assets/img/skills/sql-server.png';
 import SkillImg8 from './assets/img/skills/DBeaver.png';
+// import SkillImg8 from './assets/img/skills/sql-server.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -74,8 +63,8 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/shanu-kumar-7b627413a/',
   },
   {
     icon: <FiInstagram />,
@@ -83,7 +72,7 @@ export const social = [
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/shanu281',
   },
   {
     icon: <FiDribbble />,
@@ -120,38 +109,44 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'E-Commerce Website',
+    liveLink: "https://ecommerce-shop-five-ebon.vercel.app/",
+    gitLink: "https://github.com/shanu281/Ecommerce-Shop-",  
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: 'Hotel Booking',
+    liveLink: "https://hotel-booking-wine.vercel.app/",
+    gitLink: "https://github.com/shanu281/Hotel-Booking",
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Real Estate',
+    liveLink: "https://real-estate-app-bay-six.vercel.app/?vercelToolbarCode=l9UDxXLWqGddK1k",
+    gitLink: "https://github.com/shanu281/Real-estate-App",
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Weather Forecast',
+    liveLink: "https://weather-app-nine-ebon.vercel.app/",
+    gitLink: "https://github.com/shanu281/Weather-App",
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: 'Hospital Appointment App',
+    liveLink: "#",
+    gitLink: "#",
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: 'Todos App',
+    liveLink: "https://todos-app-ecru.vercel.app/",
+    gitLink: "https://github.com/shanu281/todosApp",
   },
 ];
 
